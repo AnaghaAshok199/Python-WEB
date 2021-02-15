@@ -54,6 +54,3 @@ action=ActionChains(driver)
 
 
 
-click =driver.find_element_by_name('q')
-action.double_click(click).perform()
-action.key_down(Keys.CONTROL).send_keys("c").perform()
